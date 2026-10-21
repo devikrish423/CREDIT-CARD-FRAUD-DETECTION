@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+
+data/creditcard.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# The app uses random_forest.joblib; other saved pipelines are not needed at runtime.
+models/*.joblib
+!models/random_forest.joblib
